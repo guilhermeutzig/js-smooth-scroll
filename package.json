@@ -1,0 +1,23 @@
+{
+  "name": "js-smooth-scroll",
+  "version": "1.0.0",
+  "description": "",
+  "main": "locomotive-scroll.min.js",
+  "scripts": {
+    "dev": "live-server --port=3000"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/guilhermeutzig/js-smooth-scroll.git"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/guilhermeutzig/js-smooth-scroll/issues"
+  },
+  "homepage": "https://github.com/guilhermeutzig/js-smooth-scroll#readme",
+  "devDependencies": {
+    "live-server": "^1.2.1"
+  }
+}

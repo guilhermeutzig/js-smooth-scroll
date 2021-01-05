@@ -1,0 +1,123 @@
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Document</title>
+
+  <link rel="stylesheet" href="locomotive-scroll.css">
+  <style>
+    body {
+      margin: 0;
+    }
+
+    img {
+      width: 100%;
+    }
+
+    .wrapper {
+      background-color: lightblue;
+    }
+
+    .item {
+      background-color: lightblue;
+      padding: 40px;
+    }
+
+    .item.green {
+      background-color: lightgreen;
+    }
+
+    h1 {
+      margin: 0 0 10px;
+    }
+
+    p {
+      margin-bottom: 20px;
+    }
+  </style>
+</head>
+<body>
+  <div class="wrapper" data-scroll-container>
+    <div  class="item">
+      <h1>Block of item to fill scroll</h1>
+      <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Dolor iure quod fugit, facere inventore minus esse alias perferendis itaque quae, ex qui soluta enim provident ratione animi repellendus numquam! Obcaecati.</p>
+      <img src="images/1.jpg" alt="">
+    </div>
+    <div  class="item green">
+      <h1>Block of item to fill scroll</h1>
+      <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Dolor iure quod fugit, facere inventore minus esse alias perferendis itaque quae, ex qui soluta enim provident ratione animi repellendus numquam! Obcaecati.</p>
+      <img src="images/2.jpg" alt="">
+    </div>
+    <div  class="item">
+      <h1>Block of item to fill scroll</h1>
+      <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Dolor iure quod fugit, facere inventore minus esse alias perferendis itaque quae, ex qui soluta enim provident ratione animi repellendus numquam! Obcaecati.</p>
+      <img src="images/1.jpg" alt="">
+    </div>
+    <div  class="item green">
+      <h1>Block of item to fill scroll</h1>
+      <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Dolor iure quod fugit, facere inventore minus esse alias perferendis itaque quae, ex qui soluta enim provident ratione animi repellendus numquam! Obcaecati.</p>
+      <img src="images/2.jpg" alt="">
+    </div>
+    <div  class="item">
+      <h1>Block of item to fill scroll</h1>
+      <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Dolor iure quod fugit, facere inventore minus esse alias perferendis itaque quae, ex qui soluta enim provident ratione animi repellendus numquam! Obcaecati.</p>
+      <img src="images/1.jpg" alt="">
+    </div>
+    <div  class="item green">
+      <h1>Block of item to fill scroll</h1>
+      <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Dolor iure quod fugit, facere inventore minus esse alias perferendis itaque quae, ex qui soluta enim provident ratione animi repellendus numquam! Obcaecati.</p>
+      <img src="images/2.jpg" alt="">
+    </div>
+    <div  class="item">
+      <h1>Block of item to fill scroll</h1>
+      <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Dolor iure quod fugit, facere inventore minus esse alias perferendis itaque quae, ex qui soluta enim provident ratione animi repellendus numquam! Obcaecati.</p>
+      <img src="images/1.jpg" alt="">
+    </div>
+    <div  class="item green">
+      <h1>Block of item to fill scroll</h1>
+      <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Dolor iure quod fugit, facere inventore minus esse alias perferendis itaque quae, ex qui soluta enim provident ratione animi repellendus numquam! Obcaecati.</p>
+      <img src="images/2.jpg" alt="">
+    </div>
+    <div  class="item">
+      <h1>Block of item to fill scroll</h1>
+      <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Dolor iure quod fugit, facere inventore minus esse alias perferendis itaque quae, ex qui soluta enim provident ratione animi repellendus numquam! Obcaecati.</p>
+      <img src="images/1.jpg" alt="">
+    </div>
+    <div  class="item green">
+      <h1>Block of item to fill scroll</h1>
+      <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Dolor iure quod fugit, facere inventore minus esse alias perferendis itaque quae, ex qui soluta enim provident ratione animi repellendus numquam! Obcaecati.</p>
+      <img src="images/2.jpg" alt="">
+    </div>
+    <div  class="item">
+      <h1>Block of item to fill scroll</h1>
+      <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Dolor iure quod fugit, facere inventore minus esse alias perferendis itaque quae, ex qui soluta enim provident ratione animi repellendus numquam! Obcaecati.</p>
+      <img src="images/1.jpg" alt="">
+    </div>
+    <div  class="item green">
+      <h1>Block of item to fill scroll</h1>
+      <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Dolor iure quod fugit, facere inventore minus esse alias perferendis itaque quae, ex qui soluta enim provident ratione animi repellendus numquam! Obcaecati.</p>
+      <img src="images/2.jpg" alt="">
+    </div>
+    <div  class="item">
+      <h1>Block of item to fill scroll</h1>
+      <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Dolor iure quod fugit, facere inventore minus esse alias perferendis itaque quae, ex qui soluta enim provident ratione animi repellendus numquam! Obcaecati.</p>
+      <img src="images/1.jpg" alt="">
+    </div>
+    <div  class="item green">
+      <h1>Block of item to fill scroll</h1>
+      <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Dolor iure quod fugit, facere inventore minus esse alias perferendis itaque quae, ex qui soluta enim provident ratione animi repellendus numquam! Obcaecati.</p>
+      <img src="images/2.jpg" alt="">
+    </div>
+  </div>
+
+  <script src="locomotive-scroll.min.js"></script>
+  <script>
+    (function () {
+      new LocomotiveScroll({
+        el: document.querySelector('[data-scroll-container]'),
+        smooth: true
+      });
+    })();
+  </script>
+</body>
+</html>
